@@ -7,9 +7,7 @@ import cors from 'cors'
 const app=exp()
 
 //add cors middleware
-app.use(cors({
-    origin:['https://week6-iupkyrrc9-saisathvikaylis-projects.vercel.app']
-}))
+app.use(cors())
 
 config();
 
