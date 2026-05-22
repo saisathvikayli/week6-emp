@@ -5,7 +5,7 @@ function RootLayout() {
   return (
     <div>
         <Header />
-        <div className="min-h-screen mx-20 p-20 bg-sky-50">
+        <div className="min-h-screen mx-20 p-20 bg-gradient-to-br from-amber-50 to-yellow-100">
             <Outlet />
         </div>
     </div>
